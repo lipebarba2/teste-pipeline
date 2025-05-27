@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: springboot_app
+    ports:
+      - "8081:8081"
+    restart: always
