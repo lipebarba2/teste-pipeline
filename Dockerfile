@@ -8,6 +8,7 @@ COPY . .
 # Dá permissão para o script mvnw
 RUN chmod +x mvnw
 
+
 # Empacota o projeto (sem rodar testes)
 RUN ./mvnw clean package -DskipTests
 
